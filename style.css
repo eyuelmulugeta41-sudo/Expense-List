@@ -86,3 +86,35 @@ button:active{
     cursor: pointer;
     border: 0px;
 }
+@media (max-width: 600px) {
+    #continer {
+        width: 95%;
+        height: auto;
+        min-height: 660px;
+        margin-top: 10px;
+    }
+
+    #tt {
+        margin: 10px;
+    }
+
+    #input,
+    #input1 {
+        width: calc(100% - 22px);
+        box-sizing: border-box;
+    }
+
+    #btn {
+        width: calc(100% - 16px);
+        box-sizing: border-box;
+    }
+
+    #title {
+        font-size: 36px;
+    }
+
+    #expenseList > div {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
